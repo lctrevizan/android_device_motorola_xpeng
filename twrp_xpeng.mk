@@ -24,6 +24,8 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="xpeng_retcn-user 11 RRXC31.Q3-45-54-5 31bd10 release-keys"
+    PRIVATE_BUILD_DESC="xpeng_retcn-user 11 RRXC31.Q3-45-54-5 31bd10 release-keys"\
+    PRODUCT_DEVICE=xpeng \
+    PRODUCT_NAME=xpeng
 
 BUILD_FINGERPRINT := motorola/xpeng_retcn/xpeng:11/RRXC31.Q3-45-54-5/31bd10:user/release-keys
