@@ -24,8 +24,8 @@ reboot_utag=$config_mp/.reboot
 touch_status_prop=vendor.hw.touch.status
 hw_cfg_file=hw_config.xml
 vhw_file=/$BASEDIR/etc/vhw.xml
-bp_file=/system/build.prop
-oem_file=/oem/oem.prop
+
+
 load_error=3
 need_to_reload=2
 reload_in_progress=1
